@@ -80,7 +80,13 @@ header {
 .hero {
   width: 100%;
   margin: 0;
-  padding: 20px 0 0 0;
+  padding: 20px 0 45px 0;
+}
+#bl {
+  font-family: 'Londrina Outline', cursive;
+}
+.cface {
+  margin-top: 20px;
 }
 header .intro-text .name {
   display: block;
@@ -292,10 +298,22 @@ section.success {
   width: 22%;
   padding-bottom: 45px;
 }
+.songnames {
+  margin-bottom: 45px;
+}
+.songnames a {
+  font-size: .7em;
+  font-family: 'Raleway', sans-serif;
+  color: #6fa19e;
+}
+audio {
+  width: 175px;
+}
+
 .well-portfolio p {
   color: white;
 }
-/*AUDIO PLAYER*/
+/*AUDIO PLAYER fancy record playlist player*/
 .example {
 /*margin: 50px auto 0;*/
 margin: 3% 5% 3% 5%;
