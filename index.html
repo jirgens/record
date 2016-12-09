@@ -25,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Droid+Sans:400,700|Poiret+One|Suez+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Outline|Raleway:500" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -61,7 +62,7 @@
                       <a href="#" data-toggle="dropdown" class="dropdown-toggle">Artists <b class="caret"></b></a>
                       <ul class="dropdown-menu">
                         <li><a href="cryface.html">CryFace</a></li>
-                        <li><a href="#">Home George</a></li>
+                        <li><a href="homegeorge.html">Home George</a></li>
                       </ul>
                     </li>
                     <li class="page-scroll">
@@ -91,29 +92,48 @@
     <section class="portfolio">
     <h2 class="text-center featured">Featured Artists</h2>
       <div class="well well-lg well-portfolio">
-        <div class="row">
-          <a href="cryface.html">
-            <img src="img/cryface.png" class="pull-left" alt="">
-            <!-- <h3 id="artistname">CryFace</h3> -->
-            <img src="img/pinkcryfacesmall2.png" id="logoname" alt="">
-            <p>sdfgadfgdfgdgadfgadgad gadfgadgdfgdfg</p>
-            <audio controls>
-              <source src="audio/16numbers.mp3">
-            </audio>
-            <br/>
-            <audio controls>
-              <source src="audio/Girlfriend.mp3">
-            </audio>
-          </a>
+        <div class="container">
+          <div class="row">
+            <a href="cryface.html">
+              <img src="img/cryface.png" class="pull-left" alt="">
+            </a>
+              <!-- <h3 id="artistname">CryFace</h3> -->
+              <a href="cryface.html">
+                <img src="img/pinkcryfacesmall2.png" id="logoname" alt="">
+              </a>
+              <p>Slacker/DIY/Indie rock from Blissfield, Michigan</p>
+              <div class="pull-right example">
+                <div class="player">
+                  <div class="title"></div>
+                  <div class="artist"></div>
+                  <div class="cover" id="cryface"></div>
+                  <div class="controls">
+                     <div class="play"></div>
+                     <div class="pause"></div>
+                     <div class="rew"></div>
+                     <div class="fwd"></div>
+                   </div>
+                   <div class="volume"></div>
+                   <div class="tracker"></div>
+                 </div>
+                 <ul class="playlist">
+                   <li audiourl="StoneMe.mp3" cover="cryfacethumb.png" artist="CryFace">Stone Me</li>
+                   <li audiourl="Girlfriend.mp3" cover="cryfacethumb.png" artist="CryFace">Girlfriend</li>
+                 </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="well well-lg well-portfolio">
-        <div class="row">
-          <a href="#">
-            <img src="img/george2.png" class="pull-right" alt="">
-            <h3>Home George</h3>
-            <p>sdfgadfgdfgdgadfgadgadgadfgad gdfgdfg</p>
-          </a>
+        <div class="well well-lg well-portfolio">
+          <div class="row">
+            <a href="#">
+              <img src="img/george2.png" class="pull-right" alt="">
+            </a>
+            <a href="#" class="artistname">
+              <h3>Home George</h3>
+            </a>
+            <p>Making music is difficult work but shouldn’t sound that way</p>
+          </div>
         </div>
       </div>
     </section>
@@ -259,22 +279,7 @@
                             <p>Slacker/DIY/Indie rock from Blissfield, Michigan. Encompassing styles from garage punk to AM soft rock and touching on everything in between.
                               Started as a recording project in 2014, CryFace is now known for sweaty live shows and outsider humor in addition to diverse, technicolor albums.</p>
                             <br/>
-                            <div> <!--Audio Streaming! -->
-                              <!-- <div> use this div to inline player + track name -->
-                                <audio controls>
-                                  <source src="#" type="audio/mpeg">
-                                  Girlfriend
-                                </audio>
-                              <!-- </div> close this div to inline player + track name   -->
-                              <br/>
-                              <!-- <div> use this div to inline player + track name -->
-                                <audio controls>
-                                  <source src="#" type="audio/mpeg">
-                                  Stone Me
-                                </audio>
-                              <!-- </div> close this div to inline player + track name   -->
-                            </div>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -316,161 +321,14 @@
                                     </strong>
                                 </li>
                             </ul> -->
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div> -->
-            <!-- </div>
-        </div> -->
-    </div>
+
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -487,6 +345,11 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+
+    <!-- Audio Player JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 

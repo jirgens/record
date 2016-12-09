@@ -280,6 +280,10 @@ section.success {
   color: #6fa19e;
   text-align: center;
   padding-bottom: 45px;
+  font-family: 'Raleway', sans-serif;
+}
+#artistname a {
+  color: #6fa19e;
 }
 #portfolio {
   background-color: black;
@@ -288,9 +292,13 @@ section.success {
   width: 22%;
   padding-bottom: 45px;
 }
+.well-portfolio p {
+  color: white;
+}
 /*AUDIO PLAYER*/
 .example {
-margin: 50px auto 0;
+/*margin: 50px auto 0;*/
+margin: 3% 5% 3% 5%;
 width: 400px;
 }
 .player {
@@ -311,7 +319,6 @@ position: absolute;
 .title {
 color: #FFFFFF;
 font-size: 14px;
-font-weight: bold;
 top: 23px;
 }
 .artist {
@@ -332,13 +339,17 @@ width: 32px;
 top: 21px;
 }
 .cover {
-background: transparent url(../data/cover1.jpg) no-repeat scroll center top;
+
 border-radius: 5px 5px 5px 5px;
 height: 94px;
 left: 20px;
 position: absolute;
 top: 20px;
 width: 94px;
+}
+.cover #cryface {
+  background: transparent url(../data/cryfacethumb.png) no-repeat scroll center top;
+  z-index: 2;
 }
 .controls {
 cursor: pointer;
@@ -374,69 +385,73 @@ background-position: -8px -170px;
 background-position: -8px -197px;
 }
 .controls .rew:hover {
-background-position: -54px -170px;
+  background-position: -54px -170px;
 }
 .controls .fwd:hover {
-background-position: -100px -170px;
+  background-position: -100px -170px;
 }
 .hidden {
-display: none;
+  display: none;
 }
 .controls .visible {
-display: block;
+  display: block;
 }
 .volume {
-height: 11px;
-left: 186px;
-position: absolute;
-top: 96px;
-width: 112px;
+  height: 11px;
+  left: 186px;
+  position: absolute;
+  top: 96px;
+  width: 112px;
 }
 .tracker {
-height: 15px;
-left: 20px;
-position: absolute;
-top: 126px;
-width: 285px;
+  height: 15px;
+  left: 20px;
+  position: absolute;
+  top: 126px;
+  width: 285px;
 }
 .ui-slider-range {
-background: transparent url("../img/spr.png") no-repeat scroll 5px -222px;
-height: 100%;
-position: absolute;
-top: 0;
+  background: transparent url("../img/spr.png") no-repeat scroll 5px -222px;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 .ui-slider-handle {
-cursor: pointer;
-height: 10px;
-margin-left: -5px;
-position: absolute;
-top: 2px;
-width: 10px;
-z-index: 2;
+  cursor: pointer;
+  height: 10px;
+  margin-left: -5px;
+  position: absolute;
+  top: 2px;
+  width: 10px;
+  z-index: 2;
 }
 .volume .ui-slider-handle {
-background: url("../img/spr.png") no-repeat scroll -201px -188px rgba(0, 0, 0, 0);
-height: 13px;
-width: 13px;
+  background: url("../img/spr.png") no-repeat scroll -201px -188px rgba(0, 0, 0, 0);
+  height: 13px;
+  width: 13px;
 }
 .playlist {
-background-color: #333333;
-border-radius: 5px 5px 5px 5px;
-list-style-type: none;
-margin: -10px 0 0 2px;
-padding-bottom: 10px;
-padding-top: 15px;
-position: relative;
-width: 326px;
-z-index: 1;
+  /*background-color: #333333;*/
+  background-color: #171717;
+  border-radius: 5px 5px 5px 5px;
+  list-style-type: none;
+  margin: -10px 0 0 2px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  position: relative;
+  width: 321px;
+  z-index: 1;
 }
 .playlist li {
-color: #EEEEEE;
-cursor: pointer;
-margin: 0 0 5px 15px;
+  color: #EEEEEE;
+  text-align: left;
+  cursor: pointer;
+  margin: 0 0 5px 15px;
 }
 .playlist li.active {
-font-weight: bold;
+  color: #6fa193;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 
@@ -444,7 +459,8 @@ font-weight: bold;
 
 .featured {
   color: #6fa19e;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Londrina Outline', cursive;
 }
 .portfolio-item {
   outline-color: #6fa19e;
