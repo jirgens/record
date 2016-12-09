@@ -30,6 +30,7 @@
         }
     })
 
+  
 
     // Floating label headings for the contact form
     $(function() {
