@@ -79,11 +79,33 @@ header {
 }
 .hero {
   width: 100%;
-  margin: 0;
-  padding: 20px 0 45px 0;
+  /*margin-top: 5px;
+  padding: 20px 0 45px 0;*/
+  background-color: black;
+  margin-top: 65px;
+  margin-bottom: 100px;
 }
 #bl {
-  font-family: 'Londrina Outline', cursive;
+  /*font-family: 'Londrina Outline', cursive;
+  margin-bottom: 35px;*/
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  #about p {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 993px) {
+  .cfindex {
+    margin-right: 25px;
+  }
+  .hgindex {
+    margin-left: 25px;
+  }
 }
 .cface {
   margin-top: 20px;
@@ -102,8 +124,6 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   header .container {
     padding-top: 25px;
-    /*padding-top: 200px;
-    padding-bottom: 100px;*/
   }
 
   header .intro-text .name {
@@ -119,6 +139,56 @@ header .intro-text .skills {
   }
 }
 
+.hero-feature {
+  margin-bottom: 30px 20px 30px 20px;
+}
+
+.box {
+  background-color: black;
+}
+
+.cfhero {
+  position: relative;
+}
+.centered-overlay {
+  position: absolute;
+  left: 36%;
+  bottom: 0px;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: 4em;
+  color: #6fa19e;
+  font-family: 'Londrina Outline', cursive;
+}
+.about-text {
+  color: #BABABA;
+}
+
+.aboutcf {
+  margin-top: 25px;
+}
+
+.news {
+  background: url("../img/darkbg.jpg");
+  background-size: contain;
+  /*background-repeat: no-repeat;*/
+  background-position: center;
+  border-radius: 5px;
+  margin-bottom: 55px;
+}
+
+.news p {
+  color: #d3d3d3;
+  padding-bottom: 40px;
+  font-size: 1.3em;
+}
+
+.news img {
+  padding-bottom: 42px;
+}
 
 .navbar-custom {
   background-color: black;
@@ -306,179 +376,37 @@ section.success {
   font-family: 'Raleway', sans-serif;
   color: #6fa19e;
 }
-audio {
-  width: 175px;
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.newsvid  iframe {
+  margin-bottom: 25px;
 }
 
 .well-portfolio p {
   color: white;
 }
-/*AUDIO PLAYER fancy record playlist player*/
-.example {
-/*margin: 50px auto 0;*/
-margin: 3% 5% 3% 5%;
-width: 400px;
-}
-.player {
-background: transparent url("../img/spr.png") no-repeat scroll center top;
-height: 162px;
-position: relative;
-width: 326px;
-z-index: 2;
-}
-.title, .artist {
-font-family: verdana;
-left: 167px;
-position: absolute;
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-}
-.title {
-color: #FFFFFF;
-font-size: 14px;
-top: 23px;
-}
-.artist {
-color: #EEEEEE;
-font-size: 12px;
-top: 40px;
-}
-.pl {
-background: transparent url("../img/spr.png") no-repeat scroll -274px -175px;
-cursor: pointer;
-height: 34px;
-left: 270px;
-position: absolute;
-top: 20px;
-width: 32px;
-}
-.pl:hover {
-top: 21px;
-}
-.cover {
-
-border-radius: 5px 5px 5px 5px;
-height: 94px;
-left: 20px;
-position: absolute;
-top: 20px;
-width: 94px;
-}
-.cover #cryface {
-  background: transparent url(../data/cryfacethumb.png) no-repeat scroll center top;
-  z-index: 2;
-}
-.controls {
-cursor: pointer;
-height: 23px;
-left: 167px;
-position: absolute;
-top: 65px;
-width: 138px;
-}
-.controls .play, .controls .pause, .controls .rew, .controls .fwd {
-background: transparent url("../img/spr.png") no-repeat scroll 0 0;
-float: left;
-height: 100%;
-width: 33%;
-}
-.controls .play {
-background-position: -8px -171px;
-}
-.controls .pause {
-background-position: -8px -198px;
-display: none;
-}
-.controls .rew {
-background-position: -54px -171px;
-}
-.controls .fwd {
-background-position: -100px -171px;
-}
-.controls .play:hover {
-background-position: -8px -170px;
-}
-.controls .pause:hover {
-background-position: -8px -197px;
-}
-.controls .rew:hover {
-  background-position: -54px -170px;
-}
-.controls .fwd:hover {
-  background-position: -100px -170px;
-}
-.hidden {
-  display: none;
-}
-.controls .visible {
-  display: block;
-}
-.volume {
-  height: 11px;
-  left: 186px;
-  position: absolute;
-  top: 96px;
-  width: 112px;
-}
-.tracker {
-  height: 15px;
-  left: 20px;
-  position: absolute;
-  top: 126px;
-  width: 285px;
-}
-.ui-slider-range {
-  background: transparent url("../img/spr.png") no-repeat scroll 5px -222px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.ui-slider-handle {
-  cursor: pointer;
-  height: 10px;
-  margin-left: -5px;
-  position: absolute;
-  top: 2px;
-  width: 10px;
-  z-index: 2;
-}
-.volume .ui-slider-handle {
-  background: url("../img/spr.png") no-repeat scroll -201px -188px rgba(0, 0, 0, 0);
-  height: 13px;
-  width: 13px;
-}
-.playlist {
-  /*background-color: #333333;*/
-  background-color: #171717;
-  border-radius: 5px 5px 5px 5px;
-  list-style-type: none;
-  margin: -10px 0 0 2px;
-  padding-bottom: 10px;
-  padding-top: 15px;
-  position: relative;
-  width: 321px;
-  z-index: 1;
-}
-.playlist li {
-  color: #EEEEEE;
-  text-align: left;
-  cursor: pointer;
-  margin: 0 0 5px 15px;
-}
-.playlist li.active {
-  color: #6fa193;
-  font-size: 1.2em;
-  font-weight: bold;
-}
 
 
-/*END AUDIO PLAYER*/
 
 .featured {
   color: #6fa19e;
   /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'Londrina Outline', cursive;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 .portfolio-item {
   outline-color: #6fa19e;
