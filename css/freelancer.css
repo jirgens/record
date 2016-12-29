@@ -86,13 +86,12 @@ header {
   margin-bottom: 100px;
 }
 #bl {
-  /*font-family: 'Londrina Outline', cursive;
-  margin-bottom: 35px;*/
   color: black;
   font-family: 'Raleway', sans-serif;
   margin-top: 25px;
   margin-bottom: 40px;
 }
+
 
 @media (min-width: 992px) {
   #about p {
@@ -110,6 +109,45 @@ header {
 .cface {
   margin-top: 20px;
 }
+.newandforth {
+  background: url("../img/darkbg.jpg");
+  padding: 5%;
+  margin: 6%;
+  /*border-width: 1px;
+  border-color: white;*/
+  outline: 1px solid white;
+  color: #CCCCCC;
+}
+
+.news1 {
+  /*padding: 2%;
+  margin: 2%;*/
+}
+
+.newsvid  iframe {
+  margin-bottom: 25px;
+}
+
+.featuredartist1 {
+  background: url("../img/darkbg.jpg");
+  padding: 5%;
+  margin: 6%;
+  /*border-width: 1px;
+  border-color: white;*/
+  outline: 1px solid white;
+  color: #CCCCCC;
+}
+.featuredartist2 {
+  background: url("../img/darkbg.jpg");
+  padding: 5%;
+  margin: 6%;
+  /*border-width: 1px;
+  border-color: white;*/
+  outline: 1px solid white;
+  color: #CCCCCC;
+
+}
+
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -150,19 +188,7 @@ header .intro-text .skills {
 .cfhero {
   position: relative;
 }
-.centered-overlay {
-  position: absolute;
-  left: 36%;
-  bottom: 0px;
-  width: 30%;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 40px;
-  padding: 20px;
-  text-align: center;
-  font-size: 4em;
-  color: #6fa19e;
-  font-family: 'Londrina Outline', cursive;
-}
+
 .about-text {
   color: #BABABA;
 }
@@ -188,6 +214,14 @@ header .intro-text .skills {
 
 .news img {
   padding-bottom: 42px;
+}
+
+#artistrow li {
+  display: inline-block;
+}
+
+#artistrow img {
+  width: 50%;
 }
 
 .navbar-custom {
@@ -391,15 +425,16 @@ section.success {
 	height: 100%;
 }
 
-.newsvid  iframe {
-  margin-bottom: 25px;
-}
 
 .well-portfolio p {
   color: white;
 }
 
-
+.soon {
+  color: #6fa19e;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 250px;
+}
 
 .featured {
   color: #6fa19e;
